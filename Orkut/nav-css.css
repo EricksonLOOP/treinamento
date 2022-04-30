@@ -1,0 +1,58 @@
+@charset "UTF8"{
+
+}
+
+
+body{
+	font-family: arial, Helvetica, sans-serif;
+}
+#nav-bar{
+	text-align: center;
+	margin-right:px;
+}
+        nav {
+            display: flex;
+            font-size: 1em;
+            line-height: 1.6em;
+            display: inline-block; 
+            margin-right: 60px;
+        }
+
+        nav a {
+
+            color: #6E96D5;
+            text-decoration: none;
+        }
+
+        nav li {
+
+            float: left;
+            list-style: none;
+            color: #6E96D5;
+            padding-right: 20px;
+            margin-bottom: 15px;
+            max-width: 58%;
+
+        }
+
+        #link-nav:hover{
+            float: left;
+            list-style: none;
+            color: #b0c5e8;
+            max-width: 58%;
+            font-size: 1em;
+            font
+            
+
+      }
+      .active{
+        color: #396fc6;
+      }
+
+        #text{
+        	margin-top: 15px;
+        }
+
+        p{
+        	display: block;
+        }
