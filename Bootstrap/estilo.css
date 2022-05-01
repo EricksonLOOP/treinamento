@@ -1,0 +1,158 @@
+body{
+	font-family: arial, helvetica, sans-serif;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+header{
+	background-color: #7952D3;
+	height: 10%;
+	width: 120%;
+	margin: -20px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+
+
+#nav{
+	height: 60px;
+	width: 400px;
+	
+	margin-top: 10px;
+	margin-bottom: 6px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#nav li{
+	text-decoration: none;
+	display: inline;
+	padding-top: 10px;
+	list-style: none;
+	color: white;
+	padding-right: 20px;
+	font-size: 30px;
+}
+#nav ul{
+	
+	text-decoration: none;
+	text-align: center;
+	font-weight: bolder;
+	color: white;
+}
+
+.gg-menu {
+    transform: scale(var(--ggs,1))
+}
+.gg-menu,
+.gg-menu::after,
+.gg-menu::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 3px;
+    background: currentColor
+    color: white;
+}
+.gg-menu::after,
+.gg-menu::before {
+    content: "";
+    position: absolute;
+    top: -6px
+}
+.gg-menu::after {
+    top: 6px
+}
+
+#menu{
+	float: right;
+	margin-right: 25px;
+	margin-top: -45px;
+	visibility: hidden;
+}
+
+#logo{
+	float: left;
+	height: 60px;
+	width: auto;
+	margin-left: 60px;
+	margin-top: -73px;
+	padding-right: 100px;
+	
+}
+
+
+.container{
+	height: auto;
+	text-align: center;
+	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	margin-bottom: 10%;
+}
+
+.grid{
+	height: auto;
+	margin: 5px 5px 5px 5px;
+}
+.col{
+	width: 50%;
+   position: relative;
+}
+.image{
+	float: right;
+}
+.text{
+	
+}
+
+
+#iniciar-botao{
+	color: white;
+	background-color: #7952D3;
+	font-weight: bold;
+	padding: 5px 5px 5px 5px;
+	font-size: 2em;
+	border: none;
+	border-radius: 5px;
+	height: 50px;
+	width: 290px;
+	margin-bottom: 5px;
+	margin-right: 2%;
+}
+
+#dwonload-botao{
+	color: gray;
+	font-weight: bold;
+	padding: 5px 5px 5px 5px;
+	font-size: 2em;
+	border: none;
+	border-radius: 5px;
+	height: 50px;
+	text-align: center;
+	width: 290px;
+	margin-bottom: 5px;
+	border: 1px gray solid;
+	margin-left: 2%;
+	background-color: transparent;
+}
+
+#lista-main{
+	list-style: none;
+	text-align: center;
+}
+#lista-main li{
+	float: left;
+}
+#botoes{
+	margin-top: 10%;
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
