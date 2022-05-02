@@ -1,0 +1,73 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #F0F2FF5;
+}
+
+#facebook-logo{
+	width: 400px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+.box-to-login{
+	text-align: center;
+	width: 300px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	box-shadow: 7px 7px 3px 3px #EBEBEB;
+	border: 0.5px solid rgba(115, 115, 115, 0.2);
+}
+input{
+	margin-top: 7px;
+	border-color: blue;
+}
+
+#input-to-login{
+	margin-top: 15px;
+	margin-bottom: 7px;
+	width: auto;
+}
+h3{
+	text-align: center;
+}
+.entrar-botao{
+	background-color: #1877F2;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	width: 180px;
+	height: auto;
+	padding: 2px 2px 2px 2px;
+}
+
+.entrar-botao:hover{
+	background-color: #0b5ac1;
+}
+a{
+	font-size: 10px;
+	margin-bottom: 5px;
+}
+
+.new-account{
+	background-color: #42B72A;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 15px;
+}
+
+.new-account:hover{
+	background-color: #2c7d1c;
+}
+
+input:empty{
+	border-color: gray;
+	border: 1px solid rgba(115, 115, 115, 0.2);
+}
+
+.outras-contas{
+	visibility: hidden;
+}
