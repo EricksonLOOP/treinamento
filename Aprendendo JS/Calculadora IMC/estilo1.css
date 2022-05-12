@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+	padding: 5px;
+	color: whitesmoke;
+	font-family: arial;
+}
+
+.calculadora{
+	width: 40%;
+	height: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(226, 141, 29, 1.0);
+	margin-top: 10%;
+	margin-bottom: 20%;
+	text-align: center;
+	padding-top: 23px;
+	border-radius: 10px;
+
+}
+.pesquisa{
+	margin: 10px;
+	text-align: center;
+	border: none;
+	border-radius: 10px;
+	height: 20px;
+	width: 50%;
+}
+.resultado{
+	height: 100px;
+	width: 50%;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	padding: 5px;
+	padding-top: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.idade{
+	margin-top: 15px;
+}
+
+.calcular{
+	margin-right: auto;
+	margin-left: auto;
+	border: none;
+	background-color: black;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+	width: 50%;
+}
